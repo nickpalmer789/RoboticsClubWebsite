@@ -27,10 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
-}
-body {
-  /*color: #fff;*/
+  /*background-color: #333;*/
   background-image: url("../media/images/boulderplaceholder.jpg");
   background-size: cover;
   text-align: center;
@@ -112,6 +109,7 @@ body {
  */
 
 .cover {
+  margin-top: 100px;
   padding: 0 20px;
 }
 .cover .btn-lg {
@@ -137,6 +135,7 @@ body {
 @media (min-width: 768px) {
   /* Pull out the header and footer */
   .masthead {
+    width: 1000px !important;
     position: fixed;
     top: 0;
   }
