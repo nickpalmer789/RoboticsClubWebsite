@@ -117,6 +117,10 @@ body {
   font-weight: bold;
 }
 
+.carousel-img {
+  min-width: 100%;
+}
+
 
 /*
  * Footer
